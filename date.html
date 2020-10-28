@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script src="date.js"></script>
+</head>
+<body>
+<p id="display"></p>
+<script>
+        let date = new MyDate(2, 5, 1993);
+        console.log(date._day);
+        let result = document.getElementById("display");
+        result.innerHTML = date.getInfor();
+</script>
+</body>
+</html>
